@@ -1,0 +1,62 @@
+/*General*/
+body {
+    background-image: url(img/matrix.jpg);
+    background-repeat: no-repeat;
+    position: fixed;
+    font-family: monospace;
+    font-size: 14px;
+    text-align: justify;
+    text-indent: 20px;
+}
+div {
+    background-color: black;
+    color: white;
+    width: 70%;
+    margin: 0px auto;
+    border-radius: 20px;
+    box-shadow: 5px 10px 10px gray;
+}
+div:nth-child(1n) p {
+    margin-left: 14px;
+}
+
+div:nth-child(1n) p::first-letter {
+    text-transform: uppercase;
+    color: #0a9b3a;
+    font-size: 34px;
+}
+
+div:nth-child(1) {
+    margin-top: 40px;
+    height: 320px;
+}
+
+div:nth-child(2) {
+    margin-top: 50px;
+    height: 400px;
+}
+
+/*Titulos*/
+div:nth-child(1n) h1 {
+    font-weight: bolder;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: #ebe8db;
+    padding: 20px;
+}
+
+div:nth-child(1n) img {
+    width: 180px;
+    float: right;
+    margin-left: 30px;
+    border-radius: 20px;
+    margin-right: 35px;
+}
+
+div a {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #0a9b3a;
+}
+
